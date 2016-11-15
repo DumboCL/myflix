@@ -1,0 +1,8 @@
+%article.video_category
+  %header
+    %h3= link_to "Movies"
+  .videos.row
+    - 1.times do
+      .video.col-sm-2
+        = link_to video_path(Video.first), nil do
+          %img(src="/tmp/#{['the_sound_of_music'].sample}.jpg")
