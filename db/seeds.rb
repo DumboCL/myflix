@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Video.create(title: 'The Sound of Music', description: 'My Favorite', 
-						 small_cover_url: 'the_sound_of_music.jpg',
-						 large_cover_url: 'the_sound_of_music_large.jpg')
+              small_cover_url: 'the_sound_of_music.jpg',
+              large_cover_url: 'the_sound_of_music_large.jpg')
